@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "InvoiceNo": {
+            "type": "number"
+        },
+        "StockCode": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "string"
+        },
+        "Quantity": {
+            "type": "number"
+        },
+        "Order": {
+            "type": "object",
+            "properties": {
+                "OrderId": {
+                    "type": "number"
+                },
+                "OrderNumber": {
+                    "type": "number"
+                },
+                "Products": {
+                    "type": "object",
+                    "properties": {
+                        "Product": {
+                            "type": "number"
+                        },
+                        "Name": {
+                            "type": "string"
+                        },
+                        "Stock": {
+                            "type": "object",
+                            "properties": {
+                                "Address": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

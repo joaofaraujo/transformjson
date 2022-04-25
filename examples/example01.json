@@ -1,0 +1,35 @@
+{
+    "InvoiceNo": 536365,
+    "StockCode": "85123A",
+    "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+    "Quantity": 6,
+    "InvoiceDate": "12/1/2010 8:26",
+    "UnitPrice": 2.55,
+    "CustomerID": 17850,
+    "Country": "United Kingdom",
+    "Order": {
+        "OrderId": 123123,
+        "OrderNumber": 10,
+        "Price": 5000,
+        "Products": [
+            {
+                "Product": 1,
+                "Name": "Kindle",
+                "Price": 1000,
+                "Stock": {
+                    "StockCode":"85123A",
+                    "Address": "Rua 01"
+                }
+            },
+            {
+                "Product": 2,
+                "Name": "Apple Watch",
+                "Price": 4000,
+                "Stock": {
+                    "StockCode":"85123A",
+                    "Address": "Rua 02"
+                }
+            }
+        ]
+    }
+}
